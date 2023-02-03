@@ -1,0 +1,654 @@
+{
+	"info": {
+		"_postman_id": "5ec43519-c242-49fe-9cb9-3d0961277c88",
+		"name": "Appointment_Scheduling",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22706606"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/v1/bookings/available_tee_times",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"date\": \"03/02/2023\" \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/v1/bookings/available_tee_times",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"bookings",
+						"available_tee_times"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:3000/api/v1/bookings/available_tee_times",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"date\": \"03/02/2023\" \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/v1/bookings/available_tee_times",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"bookings",
+								"available_tee_times"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"002ddd3038399cb90640bfbf25cb9643\""
+						},
+						{
+							"key": "Cache-Control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "X-Request-Id",
+							"value": "e6b3e1bc-a031-4b79-9875-fba7370af3cb"
+						},
+						{
+							"key": "X-Runtime",
+							"value": "0.014468"
+						},
+						{
+							"key": "Server-Timing",
+							"value": "start_processing.action_controller;dur=0.10, sql.active_record;dur=0.37, process_action.action_controller;dur=1.59"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"available_tee_times\": [\n        \"08:30\",\n        \"09:00\",\n        \"09:30\",\n        \"10:00\",\n        \"10:30\",\n        \"11:00\",\n        \"11:30\",\n        \"12:00\",\n        \"12:30\",\n        \"13:00\",\n        \"14:30\",\n        \"15:00\",\n        \"15:30\",\n        \"16:00\"\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:3000/api/v1/bookings/booked_time_slots",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"date\": \"03/02/2023\" \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/v1/bookings/booked_time_slots",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"bookings",
+						"booked_time_slots"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:3000/api/v1/bookings/booked_time_slots",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"date\": \"03/02/2023\" \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/v1/bookings/booked_time_slots",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"bookings",
+								"booked_time_slots"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"0fac4dbe0dc8389b786f547feef10669\""
+						},
+						{
+							"key": "Cache-Control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "X-Request-Id",
+							"value": "0b918e4e-59e0-47bc-b676-f5c329496f74"
+						},
+						{
+							"key": "X-Runtime",
+							"value": "0.004965"
+						},
+						{
+							"key": "Server-Timing",
+							"value": "start_processing.action_controller;dur=0.12, sql.active_record;dur=0.83, process_action.action_controller;dur=2.21"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"booked_slots\": [\n        \"08:00\",\n        \"08:30\",\n        \"13:30\",\n        \"14:00\",\n        \"14:30\"\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:3000/api/v1/bookings/1/cancel_booking",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/bookings/1/cancel_booking",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"bookings",
+						"1",
+						"cancel_booking"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/v1/bookings",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"booking\": {\n        \"user_id\": 1,\n        \"start_time\": \"09:00\",\n        \"end_time\": \"09:30\",\n        \"date\": \"04/02/2023\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/v1/bookings",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"bookings"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:3000/api/v1/bookings",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"booking\": {\n        \"user_id\": 1,\n        \"start_time\": \"09:00\",\n        \"end_time\": \"09:30\",\n        \"date\": \"04/02/2023\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/v1/bookings",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"bookings"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"6863c627e9bd08bbf4a6f61e60f3fb19\""
+						},
+						{
+							"key": "Cache-Control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "X-Request-Id",
+							"value": "69b573df-37e4-45c7-a9af-3f7958c43a9b"
+						},
+						{
+							"key": "X-Runtime",
+							"value": "0.059660"
+						},
+						{
+							"key": "Server-Timing",
+							"value": "start_processing.action_controller;dur=0.12, sql.active_record;dur=4.16, instantiation.active_record;dur=1.00, process_action.action_controller;dur=15.64"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Booking done succsefully\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:3000/api/v1/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"user\": {\n        \"name\": \"Aditya\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/v1/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"users"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:3000/api/v1/users",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"user\": {\n        \"name\": \"Aditya\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/v1/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"users"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"b8cac3b122cbb1467b1ba9cee4a361b0\""
+						},
+						{
+							"key": "Cache-Control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "X-Request-Id",
+							"value": "499fdfa8-1d6c-415d-b146-62180b009d9f"
+						},
+						{
+							"key": "X-Runtime",
+							"value": "0.042298"
+						},
+						{
+							"key": "Server-Timing",
+							"value": "start_processing.action_controller;dur=0.10, sql.active_record;dur=2.96, process_action.action_controller;dur=5.55"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"user\": {\n        \"id\": 2,\n        \"name\": \"Aditya\",\n        \"created_at\": \"2023-02-03T11:03:10.383Z\",\n        \"updated_at\": \"2023-02-03T11:03:10.383Z\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:3000/api/v1/users/find_bookings",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Ashutosh\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/v1/users/find_bookings",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"find_bookings"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:3000/api/v1/users/find_bookings",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Ashutosh\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/v1/users/find_bookings",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"users",
+								"find_bookings"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"584fcc032d099da1914a2ef5c3febd5e\""
+						},
+						{
+							"key": "Cache-Control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "X-Request-Id",
+							"value": "1b95a646-54d5-4037-95c3-3c0217835a0c"
+						},
+						{
+							"key": "X-Runtime",
+							"value": "0.047228"
+						},
+						{
+							"key": "Server-Timing",
+							"value": "sql.active_record;dur=1.62, start_processing.action_controller;dur=0.19, instantiation.active_record;dur=2.37, process_action.action_controller;dur=9.29"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"bookings\": [\n        {\n            \"id\": 1,\n            \"user_id\": 1,\n            \"start_time\": \"2000-01-01T08:00:00.000Z\",\n            \"end_time\": \"2000-01-01T08:30:00.000Z\",\n            \"date\": \"2023-02-03\",\n            \"created_at\": \"2023-02-03T08:05:07.821Z\",\n            \"updated_at\": \"2023-02-03T08:05:28.873Z\"\n        },\n        {\n            \"id\": 2,\n            \"user_id\": 1,\n            \"start_time\": \"2000-01-01T13:30:00.000Z\",\n            \"end_time\": \"2000-01-01T14:30:00.000Z\",\n            \"date\": \"2023-02-03\",\n            \"created_at\": \"2023-02-03T08:09:50.182Z\",\n            \"updated_at\": \"2023-02-03T08:09:50.182Z\"\n        },\n        {\n            \"id\": 3,\n            \"user_id\": 1,\n            \"start_time\": \"2000-01-01T09:00:00.000Z\",\n            \"end_time\": \"2000-01-01T09:30:00.000Z\",\n            \"date\": \"2023-02-04\",\n            \"created_at\": \"2023-02-03T11:01:08.599Z\",\n            \"updated_at\": \"2023-02-03T11:01:08.599Z\"\n        }\n    ]\n}"
+				}
+			]
+		}
+	]
+}
