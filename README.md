@@ -37,3 +37,5 @@ Bookings Controller
 3. booked_time_slots - This API will share the list of booked time slots for the given date.
 
 4. cancel_booking - This API will cance the booking of a golfer for the given date.
+
+Export the Appointment_Scheduling.postman_collection.json file from root folder in your postman app for APIs collection and example.
